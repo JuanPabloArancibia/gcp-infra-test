@@ -15,7 +15,6 @@ crash.log
 
 # Entornos virtuales (por si los usas en local)
 venv/
-.env/
 __pycache__/
 *.pyc
 
