@@ -1,0 +1,17 @@
+[
+  {
+    "name": "id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "nombre",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fecha_registro",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

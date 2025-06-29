@@ -1,0 +1,29 @@
+# Carpetas y archivos de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.backup
+
+# Archivos de lock y versiones (puedes incluirlos si quieres evitar conflictos de versión)
+.terraform.lock.hcl
+.terraform-version
+
+# Archivos de variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Entornos virtuales (por si los usas en local)
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Archivos de DAGs generados automáticamente (si aplicara)
+composer/dags/__pycache__/
+
+# Archivos de salida o logs temporales
+*.log
+
+# Archivos ZIP o build de funciones (si se generan en local)
+*.zip

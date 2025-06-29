@@ -1,0 +1,38 @@
+# ID del proyecto en GCP
+project_id = "tu-proyecto-id"
+
+# Región por defecto
+region = "us-central1"
+
+# Nombre del bucket de Cloud Storage
+bucket_name = "mi-bucket-ejemplo"
+
+# Nombre del tópico de Pub/Sub
+topic_name = "mi-topico-ejemplo"
+
+# Nombre de la cuenta de servicio
+sa_name = "cloud-function-sa"
+
+# Descripción de la cuenta de servicio
+sa_description = "Cuenta de servicio para Cloud Function"
+
+# URL del repositorio GitLab donde está el código fuente de la función
+gitlab_repo_url = "https://gitlab.com/usuario/repositorio.git"
+
+# Branch o tag del repositorio a usar
+gitlab_branch = "main"
+
+# Nombre del dataset de BigQuery
+bq_dataset_name = "dataset_usuarios"
+
+# Nombre de la tabla dentro del dataset
+bq_table_name = "tabla_usuarios"
+
+# Ruta local al esquema de la tabla en formato JSON
+bq_table_schema_path = "schemas/table.json"
+
+# Nombre del bucket donde se encuentra el ZIP del código de la función
+source_bucket = "mi-bucket-ejemplo"
+
+# Nombre del archivo ZIP dentro del bucket
+source_archive_object = "cloud-function.zip"

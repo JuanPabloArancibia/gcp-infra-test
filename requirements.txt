@@ -1,0 +1,2 @@
+apache-airflow[gcp]==2.8.1
+google-cloud-bigquery==3.17.2
